@@ -193,7 +193,4 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .projects-item {
         width:396px;
     }
-    .flex-projects {
-        
-    }
 }

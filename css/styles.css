@@ -746,11 +746,20 @@ button {
 /* Flex-projects */
 
 .flex-projects {
-  flex-direction: column;
-  row-gap: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   
 }
 
+.projects-item {
+  width: 396px;
+}
+
+.projects-item:not(:last-child) {
+  margin-bottom: 48px;
+}
 
 .projects-overlay {
   position: relative;
