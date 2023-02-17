@@ -121,7 +121,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     
     .mobile-social-list {
         display: inline-flex;
-        gap: 56px;
+        /* gap: 56px; */
         padding: 0;
     }
     
@@ -153,6 +153,8 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .mobile-social-link:focus {
         background-color: var(--hover);
     }
+    
+    
 } 
 
 
@@ -174,5 +176,24 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     }
     .footer-field-input {
         width: 398px;
+    }
+    .mobile-social-list {
+        gap: 56px;
+        
+    }
+    .modal {
+        width: 392px;
+    }
+    .modal-text {
+        font-size: 16px;
+    }
+    .modal-form-checkbox-desc {
+        font-size: 12px;
+    }
+    .projects-item {
+        width:396px;
+    }
+    .flex-projects {
+        
     }
 }

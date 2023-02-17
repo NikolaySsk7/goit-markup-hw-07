@@ -16,7 +16,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     }
 
     .studio::after {
-        display: none;
+        display: block;
     }
 
     .header-address {
@@ -41,6 +41,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7) ), url(../images/hero-desktop.jpg);
     }
+
+    .modal {
+        width: 408px;
+        height: 584px;
+        padding: 72px 24px 24px 24px;
+        overflow-y: hidden;
+    }
+
     .qualities-tittle {
         font-size: 20px;
         line-height: 1.2;
@@ -126,11 +134,17 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         padding-bottom: 120px;
     }
     .projects-list {
-        padding-bottom: 0;
         margin-bottom: 72px;
-        justify-content: center;
     }
     .projects-list .first-item:not(:last-child) {
-        margin-right: 24px;
+        margin-right: 0;
     }
+    .flex-projects {
+        column-gap: 24px;
+        row-gap: 48px;
+    }
+    .projects-item {
+        width: 360px;
+    }
+
 }
